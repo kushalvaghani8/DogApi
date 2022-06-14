@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F071E67A2857D73200DD1BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E6792857D73200DD1BA0 /* AppDelegate.swift */; };
 		F071E67C2857D73200DD1BA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E67B2857D73200DD1BA0 /* SceneDelegate.swift */; };
-		F071E67E2857D73200DD1BA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E67D2857D73200DD1BA0 /* ViewController.swift */; };
 		F071E6812857D73200DD1BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F071E67F2857D73200DD1BA0 /* Main.storyboard */; };
 		F071E6832857D73500DD1BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F071E6822857D73500DD1BA0 /* Assets.xcassets */; };
 		F071E6862857D73500DD1BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F071E6842857D73500DD1BA0 /* LaunchScreen.storyboard */; };
+		F0EFC1EC2858106E0004FAA3 /* DogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFC1EB2858106E0004FAA3 /* DogsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F071E6762857D73200DD1BA0 /* DogApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F071E6792857D73200DD1BA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F071E67B2857D73200DD1BA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F071E67D2857D73200DD1BA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F071E6802857D73200DD1BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F071E6822857D73500DD1BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F071E6852857D73500DD1BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F071E6872857D73500DD1BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EFC1EB2858106E0004FAA3 /* DogsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				F071E6792857D73200DD1BA0 /* AppDelegate.swift */,
 				F071E67B2857D73200DD1BA0 /* SceneDelegate.swift */,
-				F071E67D2857D73200DD1BA0 /* ViewController.swift */,
 				F071E67F2857D73200DD1BA0 /* Main.storyboard */,
+				F0EFC1EB2858106E0004FAA3 /* DogsTableViewController.swift */,
 				F071E6822857D73500DD1BA0 /* Assets.xcassets */,
 				F071E6842857D73500DD1BA0 /* LaunchScreen.storyboard */,
 				F071E6872857D73500DD1BA0 /* Info.plist */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F071E67E2857D73200DD1BA0 /* ViewController.swift in Sources */,
+				F0EFC1EC2858106E0004FAA3 /* DogsTableViewController.swift in Sources */,
 				F071E67A2857D73200DD1BA0 /* AppDelegate.swift in Sources */,
 				F071E67C2857D73200DD1BA0 /* SceneDelegate.swift in Sources */,
 			);
